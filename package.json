@@ -1,0 +1,23 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.4.1"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vasesen/v-react-cli.git",
+  "author": "vasesen <zonggf@idss-cn.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "4.1.0",
+    "cross-spawn": "^7.0.3",
+    "fs-extra": "^11.1.0"
+  },
+  "scripts": {
+    "create-react-app":"node ./packages/create-react-app/index.js"
+  }
+}
